@@ -8,3 +8,11 @@
  */
 
 rootProject.name = "learn-spring-data"
+
+include("spring-data-rest")
+
+pluginManagement {
+    repositories {
+        maven(url = "https://maven.aliyun.com/repository/gradle-plugin")
+    }
+}
